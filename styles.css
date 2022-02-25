@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #A3BBAD;
+    font-family: sans-serif;
+}
+body{
+    background-color:#0E3B43;
+    overflow-x: hidden;
+}
+.flex-item{
+    flex-grow: 1;
+    margin: 20px;
+    max-width: 300px;
+    border: 2px solid #A3BBAD;  
+    padding: 0 20px;
+}
+.flex-item:hover{
+    border-color: #71a154;
+    box-shadow: 0px 0px 30px #317124;
+}
+.flex-item:focus{
+    border-color: #71a154;
+    box-shadow: 0px 0px 30px #317124;
+}
+
+h2,h3{
+    margin: 0;
+}
+
+h3{
+    color: #999;
+}
+
+p b{
+    color: #71a154;
+}
+h1{
+    color: #A3BBAD;
+    text-align: center;
+    font-family: Shizuru;
+}
+
+.llave-img{
+    width: 100px;
+}
+form{
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+input[type="submit"]{
+    background: #317124;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
